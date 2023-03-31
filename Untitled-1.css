@@ -1,0 +1,305 @@
+/* Estilos para el cuerpo de la página */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos para el encabezado de la página */
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 48px;
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilos para la sección de artistas */
+#artists {
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+#artists h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+#artists ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+#artists li {
+	flex-basis: 299px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#artists li img {
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+#artists li h3 {
+	font-size: 24px;
+	margin: 0;
+}
+
+#artists li p {
+	font-size: 16px;
+	margin: 0;
+}
+
+/* Estilos para la sección de estilos */
+#styles {
+	background-color: #f2f2f2;
+	padding: 50px;
+	text-align: center;
+}
+
+#styles h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+#styles ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+#styles li {
+	flex-basis: 200px;
+	margin: 20px;
+	font-size: 24px;
+}
+
+/* Estilos para la sección de galería */
+#gallery {
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+#gallery h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+}
+
+.gallery img {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para la sección de contacto */
+#contact {
+	background-color: #333;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+#contact h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+#contact p {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+input {
+	font-size: 16px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+
+    ul {
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos de forma horizontal */
+    justify-content: space-between; /* Espacia los elementos */
+    } 
+    li {
+    margin: 0 20px; /* Espacio entre los elementos */
+    text-align: center;
+    } 
+    img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2); /* Añade una sombra */
+    } 
+  p {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  strong {
+    font-size: 24px;
+  }
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+        }
+    
+    img {
+    height: 50px;
+    width: auto;
+    }
+    .gallery-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Este valor es opcional y se puede ajustar según tus necesidades */
+    margin-bottom: 20px; /* Este valor es opcional y se puede ajustar según tus necesidades */
+    }  
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 50px;
+	  }
+	  
+	  label {
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	  }
+	  
+	  input[type="text"],
+	  input[type="email"],
+	  textarea {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border: none;
+		border-bottom: 2px solid #ccc;
+	    }
+	    
+	    input[type="submit"] {
+		background-color: #008CBA;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 18px;
+		margin-top: 20px;
+	  }
+	  
+	  input[type="submit"]:hover {
+		background-color: #006080;
+	  }
+	  header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 999; /* Esto asegura que el logo esté por encima del resto de contenido de la página */
+	  }
+	 .logo {
+		width: 50px; /* Ajusta el tamaño de tu logo como sea necesario */
+		height: auto; /* Esto asegura que el tamaño se ajuste proporcionalmente */
+		padding: 8px; /* Ajusta el espacio de relleno como sea necesario */
+	  }
+	  .services {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 50px;
+		background-color: #f9f9f9;
+	  }
+	  
+	  .services h2 {
+		font-size: 2.5rem;
+		margin-bottom: 30px;
+	  }
+	  
+	  .services ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	  }
+	  
+	  .services li {
+		margin-bottom: 20px;
+	  }
+	  
+	  .services li i {
+		margin-right: 10px;
+		color: #ff7200;
+	  }
+	  
+	  .services li h3 {
+		font-size: 1.5rem;
+		margin: 0;
+	  }
+	  
+	  .services li p {
+		font-size: 1.1rem;
+		margin-top: 5px;
+		line-height: 1.4;
+	  }
+	  

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Gángs Tattoo</title>
+	<link rel="stylesheet" href="Untitled-1.css">
+	<link rel="icon" type="The_Gángs_Tattoo-removebg-preview.PNG" href="The_Gángs_Tattoo-removebg-preview.PNG">
+</head>  
+<body>
+	<header>
+		<h1>The Gángs Tattoo</h1>
+		<img src="The Gángs Tattoo.jpg" alt="logo">
+		<nav>
+			<ul>
+				<li><a href="#artists">Artistas</a></li>
+				<li><a href="#styles">Estilos</a></li>
+				<li><a href="#gallery">Galería</a></li>
+				<li><a href="#contact">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="artists">
+			<h2>Nuestros artistas</h2>
+			<p>En The Gángs Tattoo nos enorgullece tener algunos de los artistas de tatuajes más talentosos de la industria. Conozca a nuestro equipo:</p>
+			<ul>
+				<li>
+					<img src="IMG_20220825_101957637.jpg" alt="Artista 1" width="80" height="80">
+					<h3>Hector Felix</h3>
+					<p>Especializado en estilos tradicionales y neo-tradicionales. Ha estado tatuando por más de 10 años.</p>
+				</li>
+				<li>
+					<img src="artist2.jpg" alt="Artista 2">
+					<h3>Jose Enrique</h3>
+					<p>Especializada en estilos de acuarela y finas líneas. Ha estado tatuando por más de 5 años.</p>
+				</li>
+			</ul>
+		</section>
+		<section id="styles">
+			<h2>Estilos</h2>
+			<p>Ofrecemos una amplia gama de estilos de tatuajes, incluyendo:</p>
+			<ul>
+				<li>Tradicional</li>
+				<li>Neo-tradicional</li>
+				<li>Acuarela</li>
+				<li>Finas líneas</li>
+				<li>Blackwork</li>
+				<li>Realismo</li>
+			</ul>
+		</section>
+		<section class="services">
+			<h2>Nuestros servicios</h2>
+			<p>En nuestro estudio de tatuajes ofrecemos una amplia variedad de servicios para satisfacer todas las necesidades y gustos de nuestros clientes. A continuación, te presentamos algunos de ellos:</p>
+			
+			<ul>
+		      <li>Tatuajes personalizados: Nos aseguramos de que cada tatuaje sea único y refleje la personalidad y estilo de nuestro cliente.</li>
+			  <li>Tatuajes realistas: Contamos con artistas especializados en crear tatuajes que parecen fotos o ilustraciones hiperrealistas.</li>
+			  <li>Tatuajes de estilo tradicional: Si buscas un tatuaje con un estilo clásico, nuestro estudio es el lugar perfecto para ti. Ofrecemos tatuajes de estilo tradicional que nunca pasarán de moda.</li>
+			  <li>Cubrimientos y reparaciones: Si tienes un tatuaje antiguo que ya no te gusta, nuestros artistas pueden ayudarte a cubrirlo o repararlo para que luzca como nuevo.</li>
+			  <li>Piercings: Además de tatuajes, también ofrecemos una variedad de piercings para aquellos que buscan algo diferente.</li>
+			</ul>
+			
+			<p>No importa cuál sea tu idea o concepto, nuestro equipo de artistas profesionales estará encantado de trabajar contigo para crear un tatuaje o piercing que te encantará durante toda la vida.</p>
+		  </section>
+		  <canvas id="tatuador" width="500" height="500"></canvas> 
+		  <script src="tatuador.js"></script>
+
+		  <section id="gallery">
+			<h2>Galería</h2>
+			<p>Echa un vistazo a algunos de los increíbles tatuajes que han hecho nuestros artistas:</p>
+			<div class="gallery">
+				<img src="Tatuaje-tradicional-Tattoo-Barcelona.jpg" alt="Galería 1" class="gallery-image">
+				<img src="e1de911f9bf4d98b3f63a187351916aa.jpg" alt="Galería 2" class="gallery-image">
+				<img src="337253a14deb2091507572aaf77b8799.jpg" alt="Galería 3" class="gallery-image">
+				<img src="c6e258151311ed73c3715973e2682a4d.jpg" alt="Galería 4" class="gallery-image">
+				<img src="01d708bd187f8cd80c625eb888d90934.jpg" alt="Galería 5" class="gallery-image">
+				<img src="1b0d08a408c76079e3ee8b7edcc5291f.jpg" alt="Galería 6" class="gallery-image">
+			</div>
+			<h2>Piercing</h2>
+			<p class="no-dots">En nuestro estudio de tatuajes también ofrecemos servicios de piercing. Aquí puedes ver algunos de nuestros trabajos:</p>
+			<ul>
+				<li><strong>Piercing en la nariz:</strong> <img src="3b729d47424a5f2cb795e6852bd3cb84.jpg" alt="Piercing en la nariz"></li>
+				<li><strong>Piercing en la lengua:</strong> <img src="7e29e586b889dc15142370cf2757d135.jpg" alt="Piercing en la lengua"></li>
+				<li><strong>Piercing en la ceja:</strong> <img src="0ee14218f02e5abc6870826c35d0a480.jpg" alt="Piercing en la ceja"></li>
+			</ul>
+			<p>Si estás interesado en hacerte un piercing, ¡ven a visitarnos! Nuestros piercers profesionales te darán el mejor servicio.</p>
+			</body>			
+		</section>
+		<section id="contact">
+			<h2>Agendar una cita </h2>
+			<form action="enviar.php" method="post">
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required>
+			  
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+			  
+				<label for="telefono">Teléfono:</label>
+				<input type="tel" id="telefono" name="telefono" required>
+			  
+				<label for="fecha">Fecha del tatuaje:</label>
+				<input type="date" id="fecha" name="fecha" required>
+			  
+				<label for="descripcion">Descripción del tatuaje:</label>
+				<textarea id="descripcion" name="descripcion" required></textarea>
+			  
+				<button type="submit">Enviar</button>
+			  </form>
+			  <form method="POST" action="procesar_formulario.php">
+			  
